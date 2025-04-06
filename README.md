@@ -17,10 +17,13 @@ healthai/
 │   ├── app/           # Application code
 │   │   ├── agent/     # Health AI Agent implementation
 │   │   ├── api/       # API endpoints
+│   │   ├── data/      # Data handling
 │   │   ├── models/    # Data models
 │   │   └── utils/     # Utility functions
+│   ├── .env           # Environment variables
+│   ├── run.py         # Application runner
 │   └── requirements.txt  # Python dependencies
-├── frontend/          # Next.js frontend
+├── frontend/          # Frontend code
 │   └── health-ai-frontend/  # Next.js application
 └── data/              # Sample health data
     └── sample_health_data.json  # Sample health data for testing
@@ -38,7 +41,7 @@ healthai/
 
 1. Navigate to the backend directory:
    ```
-   cd healthai/backend
+   cd backend
    ```
 
 2. Create a virtual environment (optional but recommended):
@@ -53,11 +56,11 @@ healthai/
    ```
 
 4. Set up environment variables:
-   - Copy the `.env` file and update the `PINAI_API_KEY` with your API key from [PinAI Agent platform](https://agent.pinai.tech/profile)
+   - Update the `.env` file with your `PINAI_API_KEY` from [PinAI Agent platform](https://agent.pinai.tech/profile)
 
 5. Start the backend server:
    ```
-   uvicorn app.main:app --reload
+   python run.py
    ```
 
    The backend will be running at http://localhost:8000
@@ -66,7 +69,7 @@ healthai/
 
 1. Navigate to the frontend directory:
    ```
-   cd healthai/frontend/health-ai-frontend
+   cd frontend/health-ai-frontend
    ```
 
 2. Install dependencies:
