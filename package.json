@@ -1,0 +1,20 @@
+{
+  "name": "health-ai",
+  "version": "1.0.0",
+  "description": "Advanced Health AI Assistant",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cd frontend/health-ai-frontend && npm run dev",
+    "build": "cd frontend/health-ai-frontend && npm run build",
+    "start": "cd frontend/health-ai-frontend && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "health",
+    "ai",
+    "assistant",
+    "nextjs"
+  ],
+  "author": "",
+  "license": "MIT"
+} 
