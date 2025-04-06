@@ -138,7 +138,7 @@ const ChatComponent = () => {
           value={input}
           onChange={(e) => setInput(e.target.value)}
           placeholder="Ask about your health data..."
-          className="flex-1 border border-gray-300 rounded-l-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500"
+          className="flex-1 border border-gray-300 rounded-l-lg py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-500 text-gray-900"
           disabled={isLoading}
         />
         <button
@@ -179,4 +179,4 @@ const ChatComponent = () => {
   );
 };
 
-export default ChatComponent; 
+export default ChatComponent;
