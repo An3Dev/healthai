@@ -51,7 +51,6 @@ const ChatComponent = () => {
     setIsLoading(true);
     
     try {
-      console.log('Sending message to backend:', input);
       // Send message to the backend
       const response = await fetch('http://localhost:8000/api/chat', {
         method: 'POST',
@@ -64,14 +63,7 @@ const ChatComponent = () => {
         }),
       });
       
-      console.log('Response status:', response.status);
-      
-      if (!response.ok) {
-        throw new Error(`Server responded with status: ${response.status}`);
-      }
-      
       const data = await response.json();
-      console.log('Response data:', data);
       
       // Add assistant's response to chat
       const aiMessage: Message = {
@@ -88,7 +80,7 @@ const ChatComponent = () => {
       // Add error message
       const errorMessage: Message = {
         id: (Date.now() + 1).toString(),
-        content: 'Sorry, I encountered an error when processing your request. Please try again or check if the backend server is running.',
+        content: 'Sorry, I encountered an error when processing your request. Please try again.',
         isUser: false,
         timestamp: new Date()
       };
