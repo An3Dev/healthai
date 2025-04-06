@@ -1,0 +1,56 @@
+PIN AI is an open platform for Personal AI, empowering users to reclaim their data from centralized platforms and train private, on-device AI models. The PIN Network integrates private compute, Trusted Execution Environments (TEEs), and blockchain verification to ensure secure interactions between humans and AI.
+
+Additionally, PIN AI serves as an economic coordination layer for Personal AI and AI agents, enabling developers to access contextual data through privacy-preserving protocols and build AI Agent services that deliver personalized outcomes based on user intent.
+
+The Problem with today’s AI
+Current AI applications, like ChatGPT, Google Assistant, and Siri fail to deliver truly personalized AI services. This is because they lack the personal context needed to understand you as an individual.
+
+Your digital identity is fragmented across Big Tech’s walled gardens—Apple, Google, Meta—where each company holds only a piece of your data within their closed ecosystems. This fragmented data ecosystem, where data cannot be shared across platforms, not only prevents AI applications from providing truly personalized services but also
+
+Centralizes corporate control over personal data, limiting user autonomy and restricting true data ownership.
+Enforces an exploitative data economy, where Big Tech monetizes your data for AI training and targeted advertising, while you receive no ownership, compensation, or control.
+​
+Unlocking personal AI
+PIN AI solves data fragmentation and unlocks personal AI with an open platform for data ownership and personal intelligence. The platform enables you to securely reclaim your data from centralized platforms, deploy AI models on your mobile device, and access an open economy of AI Agent services.
+
+Additionally, PIN AI offers builders a privacy-first data layer to create innovative AI applications.
+
+PIN AI empowers you to
+
+Reclaim and consolidate your fragmented data from Big Tech’s closed ecosystems, mobile apps, and blockchain sources while maintaining your privacy.
+Fine-tune and run personal AI models directly on your personal devices.
+Participate in an open AI economy, where you control and benefit from your data.
+
+Overview
+The Personal AI Protocol is an open-source, decentralized framework that combines cryptographic security with off-chain private computation to enable secure, verifiable, and privacy-preserving data handling. It empowers you to unlock your data from various Web2 and Web3 platforms and leverage it with your own Personal AI.
+
+The protocol consists of three core components: Data Connectors, On-Device LLMs, and God Models.
+
+Data Connectors
+Data Connectors are software components that securely fetch, process, and structure personal data within Trusted Execution Environments (TEEs). They enable you to connect to and retrieve information from major Web2 and Web3 platforms, such as Google, Apple, Meta, Amazon, MetaMask, and Phantom, while ensuring data privacy and user control.
+
+Additionally, Data Connectors process and structure your data into a personal knowledge graph, making it easily accessible and optimized for use by your Personal AI.
+
+​
+Data Connectors help you
+Select specific sources to fetch only the data you need.
+Store fetched data in a trusted location of your choice.
+Control your Personal AI’s access and use of your data.
+
+On-device Large Language Models (LLMs) are self-contained, privacy-preserving AI models that run directly on your devices—smartphones, laptops, or private clouds—via the PIN AI app. On-device LLMs process data directly on your device or in a secure, user-authorized environment. This keeps your data private and under your control.
+
+Your on-device LLM transforms into your Personal AI by accessing data fetched by Data Connectors and stored locally in your trusted location. By learning your history, preferences, and behavior, it generates context-aware insights and acts within and across your mobile apps to assist with daily tasks.
+
+​
+Personal AI helps you
+Streamline your digital life with AI-powered automation.
+Interact with AI agents across the PIN Economy.
+Receive personalized insights and recommendations tailored to you.
+
+Guardian of data (God) Models are TEE-based specialized models that evaluate the performance and accuracy of Personal AIs, ensuring they effectively serve user needs. This process rewards users for having high-quality Personal AIs that accurately represent their data.
+
+​
+Key features
+Operate securely within Trusted Execution Environments (TEEs).
+Specialize in evaluating Personal AI performance.
+Verify the accuracy and consistency of Personal AI responses.
