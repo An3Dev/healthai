@@ -1,5 +1,5 @@
 import os
-from fastapi import FastAPI, HTTPException, Depends, Request, Body
+from fastapi import FastAPI, HTTPException, Depends, Request
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from dotenv import load_dotenv
@@ -86,14 +86,10 @@ from app.agent.health_agent import HealthAIAgent
 health_agent = HealthAIAgent()
 
 @app.post("/api/chat")
-async def chat(request: Request):
+async def chat(request: Dict[str, Any]):
     try:
-        # Parse request body as JSON
-        request_data = await request.json()
-        logger.info(f"Received chat request: {request_data}")
-        
-        message = request_data.get("message", "")
-        session_id = request_data.get("session_id", "default_session")
+        message = request.get("message", "")
+        session_id = request.get("session_id", "default_session")
         
         if not message:
             raise HTTPException(status_code=400, detail="Message is required")
